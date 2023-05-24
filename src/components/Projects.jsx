@@ -17,13 +17,15 @@ import {
   CardFooter,
   HStack,
   ButtonGroup,
-  Divider
+  Divider,
+  Box
 } from "@chakra-ui/react";
 import { SiLinkedin, SiGithub } from 'react-icons/si';
 import { BsReverseLayoutSidebarReverse } from 'react-icons/bs'
 
 const Projects = () => {
   return (
+    <Box bgColor="#F2F5F7">
     <Container maxW="3xl" pt={"30px"} pb={"50px"}>
         <Center mb="40px"><Heading>Projects</Heading></Center>
     <SimpleGrid
@@ -66,6 +68,7 @@ const Projects = () => {
 </Card>
               </SimpleGrid>
   </Container>
+  </Box>
   )
 }
 
