@@ -98,6 +98,7 @@ const Projects = () => {
                                     src="/bit-password-input.png"
                                     alt="Green double couch with wooden legs"
                                     borderRadius="lg"
+                                    height={"220px"}
                                 />
                                 <Stack mt="6" spacing="3">
                                     <Heading size="md">Password Input</Heading>
@@ -125,6 +126,42 @@ const Projects = () => {
                                         size="xs"
                                     >
                                         <a href="https://bit.cloud/gastelumdev/gdev-template/password-input">
+                                            Bit.dev Preview
+                                        </a>
+                                    </Button>
+                                </ButtonGroup>
+                            </CardFooter>
+                        </Card>
+                        <Card maxW="sm">
+                            <CardBody>
+                                <Image
+                                    src="/bit-login.png"
+                                    alt="Green double couch with wooden legs"
+                                    borderRadius="lg"
+                                    height={"220px"}
+                                />
+                                <Stack mt="6" spacing="3">
+                                    <Heading size="md">Login</Heading>
+                                    <Text>A customizable login component.</Text>
+                                </Stack>
+                            </CardBody>
+                            <CardFooter>
+                                <ButtonGroup spacing="2">
+                                    {/* <Button
+                                        leftIcon={<SiBit />}
+                                        colorScheme={"gray"}
+                                        size="xs"
+                                    >
+                                        <a href="https://github.com/gastelumdev/collabtime-mern">
+                                            Bit.dev Preview
+                                        </a>
+                                    </Button> */}
+                                    <Button
+                                        leftIcon={<SiBit />}
+                                        colorScheme="orange"
+                                        size="xs"
+                                    >
+                                        <a href="https://bit.cloud/gastelumdev/gdev-template/login">
                                             Bit.dev Preview
                                         </a>
                                     </Button>
