@@ -40,7 +40,7 @@ const Projects = () => {
                             <CardBody>
                                 <Image
                                     src="/CollabtimeScreenshot.png"
-                                    alt="Green double couch with wooden legs"
+                                    alt="Screenshot of project"
                                     borderRadius="lg"
                                 />
                                 <Stack mt="6" spacing="3">
@@ -72,7 +72,7 @@ const Projects = () => {
                                         colorScheme="orange"
                                         size="xs"
                                     >
-                                        <a href="https://collabtime-e802.onrender.com">
+                                        <a href="https://collabtime-cl.onrender.com">
                                             Visit Site
                                         </a>
                                     </Button>
