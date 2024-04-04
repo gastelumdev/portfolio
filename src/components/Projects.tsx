@@ -38,31 +38,46 @@ const Projects = () => {
                     >
                         <Card maxW="sm">
                             <CardBody>
-                                <Image
+                                {/* <Image
                                     src="/CollabtimeScreenshot.png"
                                     alt="Screenshot of project"
                                     borderRadius="lg"
-                                />
+                                /> */}
                                 <Stack mt="6" spacing="3">
                                     <Heading size="md">
-                                        Event Management
+                                        <Center>
+                                        Collabtime
+                                        </Center>
                                     </Heading>
                                     <Text>
-                                        An event management site built for event
-                                        organizers of the Arcadia Festival of
-                                        Bands.
+                                        A web app for managing team tasks in a collaborative way.
+                                    </Text>
+                                    <Text fontSize={"14px"}>
+                                        Username: collabtime@collabtime.net
+                                    </Text>
+                                    <Text fontSize={"14px"}>
+                                        Password: C011@bTime#2024
                                     </Text>
                                 </Stack>
                             </CardBody>
                             <CardFooter>
-                                <ButtonGroup spacing="2">
+                                <Stack w={"100%"}>
                                     <Button
                                         leftIcon={<SiGithub />}
                                         colorScheme={"gray"}
                                         size="xs"
                                     >
-                                        <a href="https://github.com/gastelumdev/collabtime-mern">
-                                            Project Repo
+                                        <a href="https://github.com/gastelumdev/collabtime-vite">
+                                            Frontend Repo
+                                        </a>
+                                    </Button>
+                                    <Button
+                                        leftIcon={<SiGithub />}
+                                        colorScheme={"gray"}
+                                        size="xs"
+                                    >
+                                        <a href="https://github.com/gastelumdev/collabtime-ts-backend">
+                                            Backend Repo
                                         </a>
                                     </Button>
                                     <Button
@@ -72,11 +87,11 @@ const Projects = () => {
                                         colorScheme="orange"
                                         size="xs"
                                     >
-                                        <a href="https://collabtime-cl.onrender.com">
+                                        <a href="https://collabtime.net">
                                             Visit Site
                                         </a>
                                     </Button>
-                                </ButtonGroup>
+                                    </Stack>
                             </CardFooter>
                         </Card>
                     </SimpleGrid>
